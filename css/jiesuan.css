@@ -1,0 +1,113 @@
+body{
+				font-size:0.16rem;
+				background: #F7F7F7;
+			}
+			.product-item{
+				width:100%;
+				background: #fff;
+				border-radius: 0.15rem;
+				margin:0.15rem 0;
+				display:flex;
+				justify-content: space-around;
+			}
+			.check label p,footer label p{
+				width:40px;
+				height: 40px;
+				border-radius: 50%;
+				/* overflow: hidden; */
+				/* background-image:url(../img/download.webp); */
+				border:1px solid black;
+				/* background-position:-999px -999px; */
+				transform:scale(0.5);
+				background-repeat:no-repeat;
+			}
+			.check label input,footer label input{
+				visibility: hidden;
+				position: absolute;
+			}
+			.check label input:checked+p,footer label input:checked+p{
+				background-position:-73px -12px;
+				border:1px solid transparent;
+				background: red;
+			}
+			.check{
+				position: relative;
+				display: flex;
+				align-items: center;
+			}
+			
+			.product img{
+				width:1.4rem;
+				height:1.4rem;
+				border-radius: 10px;
+				float: left;
+				margin-right:0.1rem;
+			}
+			.product{
+				width:4.5rem;
+				
+			}
+			.detail{
+				padding:0.2rem 0;
+			}
+			.detail h3{
+				height:0.4rem;
+				line-height: 0.2rem;
+				overflow: hidden;
+				
+			}
+			.detail>div{
+				display:flex;
+				justify-content: space-between;
+			}
+			.detail .price{
+				color:#E43130;
+				font-size:0.2rem;
+				font-weight: bold;
+			}
+			.detail .price span{
+				font-size:0.16rem;
+			}
+			.control button{
+				border:0;
+				background:transparent;
+				font-weight: bold;
+				width:0.2rem;
+				height:0.2rem;
+				
+			}
+			.control input{
+				width:0.5rem;
+				text-align: center;
+				height: 0.2rem;
+				border:0;
+				background: #f7f7f7;
+			}
+			.del{
+				border:0;
+				background:transparent;
+				float: right;
+			}
+			
+			footer{
+				height:0.5rem;
+				position: fixed;
+				width:100%;
+				bottom:0;
+				left:0;
+				background: #fff;
+				border-top:1px solid #d3d3d3;
+				display:flex;
+				padding:0 0.15rem;
+				justify-content: space-between;
+				align-items: center;
+				box-sizing: border-box;
+			}
+			.calc-price{
+				font-size:0.2rem;
+				font-weight: bold;
+			}
+			.checkall{
+				display: flex;
+				align-items:center;
+			}
